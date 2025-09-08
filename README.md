@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,7 +15,7 @@
             font-family: 'Playfair Display', serif;
         }
         .hero {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://drive.google.com/file/d/1yacyLsR08eKzQ0wLNCAzKlbPae7W-dDi/view?usp=sharing');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://drive.google.com/uc?export=download&id=1yacyLsR08eKzQ0wLNCAzKlbPae7W-dDi');
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -91,10 +91,13 @@
     <!-- Contact Section -->
     <section class="section bg-gray-100" id="contact">
         <h2 class="text-4xl font-bold text-center mb-6">Contact Us</h2>
-        <form class="contact-form max-w-lg mx-auto">
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <textarea placeholder="Your Message" rows="5" required></textarea>
+        <form class="contact-form max-w-lg mx-auto" action="https://formspree.io/f/xqkwzbky" method="POST">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <input type="hidden" name="_subject" value="New Contact Form Submission from Tycoon Olam">
+            <input type="hidden" name="_cc" value="yissy@tycoonolam.com">
+            <input type="hidden" name="_next" value="https://tycoonolam.com/thanks">
             <button type="submit">Send Message</button>
         </form>
     </section>
