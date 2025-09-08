@@ -12,7 +12,7 @@
       background-color: #f9f9f9;
     }
     .hero {
-      background: url("https://drive.google.com/uc?export=view&id=1yacyLsR08eKzQ0wLNCAzKlbPae7W-dDi") no-repeat center center;
+      background: url("image/design-house-modern-villa-with-open-plan-living-private-bedroom-wing-large-terrace-with-privacy.jpg") no-repeat center center;
       background-size: cover;
       height: 80vh;
       display: flex;
