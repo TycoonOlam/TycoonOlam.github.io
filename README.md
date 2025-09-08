@@ -65,7 +65,7 @@
     <section class="section bg-gray-100">
         <h2 class="text-4xl font-bold text-center mb-6">About Tycoon Olam</h2>
         <p class="text-lg text-center max-w-3xl mx-auto">
-            At Tycoon Olam, we’re a team of real estate pros with a solid track record. Our partners own thousands of residential and commercial units, showing off our knack for spotting great markets. We love digging into data and trends to make smart buys and grow portfolios, delivering top-notch value to our clients in a laid-back yet effective way.
+            At Tycoon Olam, we are premier real estate investors with a proven track record. Our partners collectively own thousands of residential and commercial units, showcasing our expertise in high-potential markets. Specializing in strategic acquisitions and portfolio growth, we deliver exceptional value, leveraging data-driven insights and economic trends to maximize returns.
         </p>
     </section>
 
