@@ -15,7 +15,7 @@
             font-family: 'Playfair Display', serif;
         }
         .hero {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('[[INSERT YOUR IMAGE URL HERE]](https://drive.google.com/file/d/1yacyLsR08eKzQ0wLNCAzKlbPae7W-dDi/view?usp=sharing)');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://drive.google.com/file/d/1yacyLsR08eKzQ0wLNCAzKlbPae7W-dDi/view?usp=sharing');
             background-size: cover;
             background-position: center;
             height: 100vh;
