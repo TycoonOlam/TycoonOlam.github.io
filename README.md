@@ -1,111 +1,82 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tycoon Olam - Real Estate Investment</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            color: #333;
-        }
-        h1, h2, h3 {
-            font-family: 'Playfair Display', serif;
-        }
-        .hero {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<img src="https://drive.google.com/uc?export=view&id=1yacyLsR08eKzQ0wLNCAzKlbPae7W-dDi" alt="My Image">
-');
-            background-size: cover;
-            background-position: center;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            color: white;
-        }
-        .section {
-            padding: 5rem 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .contact-form input, .contact-form textarea {
-            border: 1px solid #d1d5db;
-            border-radius: 0.375rem;
-            padding: 0.75rem;
-            width: 100%;
-            margin-bottom: 1rem;
-            font-family: 'Roboto', sans-serif;
-        }
-        .contact-form button {
-            background-color: #1f2937;
-            color: white;
-            padding: 0.75rem 2rem;
-            border-radius: 0.375rem;
-            font-family: 'Playfair Display', serif;
-            transition: background-color 0.3s;
-        }
-        .contact-form button:hover {
-            background-color: #374151;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tycoon Olam Real Estate</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+    .hero {
+      background: url("https://drive.google.com/uc?export=view&id=1yacyLsR08eKzQ0wLNCAzKlbPae7W-dDi") no-repeat center center;
+      background-size: cover;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    .content {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    input, textarea, button {
+      padding: 0.75rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      background: #002b5c;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #004080;
+    }
+  </style>
 </head>
 <body>
-    <!-- Hero Section -->
-    <section class="hero">
-        <div>
-            <h1 class="text-5xl md:text-6xl font-bold mb-4">Tycoon Olam</h1>
-            <p class="text-xl md:text-2xl mb-6">Building Wealth Through Strategic Real Estate Investments</p>
-            <a href="#contact" class="bg-white text-gray-800 py-3 px-6 rounded-md font-semibold hover:bg-gray-100 transition">Get Started</a>
-        </div>
-    </section>
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Building a Better World in Real Estate</h1>
+  </div>
 
-    <!-- About Section -->
-    <section class="section bg-gray-100">
-        <h2 class="text-4xl font-bold text-center mb-6">About Tycoon Olam</h2>
-        <p class="text-lg text-center max-w-3xl mx-auto">
-            At Tycoon Olam, we are premier real estate investors with a proven track record. Our partners collectively own thousands of residential and commercial units, showcasing our expertise in high-potential markets. Specializing in strategic acquisitions and portfolio growth, we deliver exceptional value, leveraging data-driven insights and economic trends to maximize returns.
-        </p>
-    </section>
+  <!-- About + Contact -->
+  <div class="content">
+    <p>
+      Together with our partners, we manage thousands of units across the country.  
+      Interested in working with us? Get in touch below.
+    </p>
 
-    <!-- Services Section -->
-    <section class="section">
-        <h2 class="text-4xl font-bold text-center mb-6">Our Services</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="text-center">
-                <h3 class="text-2xl font-semibold mb-4">Market Analysis</h3>
-                <p>Leveraging data-driven insights to identify properties in expansion-stage markets with strong job growth and economic stability.</p>
-            </div>
-            <div class="text-center">
-                <h3 class="text-2xl font-semibold mb-4">Property Acquisition</h3>
-                <p>Securing high-value assets with favorable Debt Coverage Ratios, ensuring robust returns and minimized risk.</p>
-            </div>
-            <div class="text-center">
-                <h3 class="text-2xl font-semibold mb-4">Portfolio Management</h3>
-                <p>Optimizing investments through proactive management, ensuring properties benefit from insurance proceeds and local incentives.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="section bg-gray-100" id="contact">
-        <h2 class="text-4xl font-bold text-center mb-6">Contact Us</h2>
-        <form class="contact-form max-w-lg mx-auto" action="https://formspree.io/f/xqkwzbky" method="POST">
-            <input type="text" name="name" placeholder="Name" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-            <input type="hidden" name="_subject" value="New Contact Form Submission from Tycoon Olam">
-            <input type="hidden" name="_cc" value="yissy@tycoonolam.com">
-            <input type="hidden" name="_next" value="https://tycoonolam.com/thanks">
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white text-center py-4">
-        <p>&copy; 2025 Tycoon Olam. All Rights Reserved.</p>
-    </footer>
+    <!-- Contact Form -->
+    <form action="https://formspree.io/f/xkgvklqo" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="_replyto" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <!-- Hidden field to send directly to your email -->
+      <input type="hidden" name="_to" value="yissy@tycoonolam.com">
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
 </body>
 </html>
